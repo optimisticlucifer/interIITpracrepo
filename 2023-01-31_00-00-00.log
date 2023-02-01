@@ -1,0 +1,19 @@
+Blueshift Alert[2023-01-31 17:44:49.819517] INFO :Set up alert manager Blueshift Alert Manager[46759] with retry limits 20.
+Blueshift Alert[None] INFO :Starting backtest with demo.py
+Blueshift Alert[None] INFO :engine: 2.1.0, broker:nse-backtest, timezone:Asia/Calcutta, total sessions:6
+Blueshift Alert[2022-01-03 00:00:00+05:30] INFO in algorithm:risk management: enabled exit cool-off period for 30 minutes.
+Blueshift Alert[2022-01-03 15:20:00+05:30] WARNING :order 14859dbae0c24e5aa97c58a97633618d for 25.0 units of EquityFutures(BANKNIFTY-II [22]) was rejected:Rolling asset orders not accepted after cut-off time 15:15:00.
+Blueshift Alert[2022-01-03 15:20:00+05:30] INFO in algorithm:Error in strategy:Error in strategy - Traceback (most recent call last):
+  File "demo.py", line 61, in scheduled_func_99978
+blueshift_objects.utils.exceptions.BrokerError: Broker error: Rolling asset orders not accepted after cut-off time 15:15:00.
+
+Blueshift Alert[2022-01-03 15:20:00+05:30] WARNING in algorithm:Error in strategy: Broker error: Rolling asset orders not accepted after cut-off time 15:15:00.. See log for more details.
+Blueshift Alert[2022-01-04 15:29:00+05:30] WARNING :order 8c26761f54814dc9bd8cd459552d59ae for 25.0 units of EquityFutures(BANKNIFTY20220224FUT [22]) could not be filled by EOD, and was cancelled.
+Blueshift Alert[2022-01-04 15:29:00+05:30] WARNING :order 6bd1d7ed92bb4c7aa6f982081f31724b for 25.0 units of EquityFutures(BANKNIFTY20220224FUT [22]) could not be filled by EOD, and was cancelled.
+Blueshift Alert[2022-01-04 15:29:00+05:30] WARNING :order ceee6b87a4ec43098a2e0d010231d4e4 for 25.0 units of EquityFutures(BANKNIFTY20220224FUT [22]) could not be filled by EOD, and was cancelled.
+Blueshift Alert[2022-01-04 15:29:00+05:30] WARNING :order 2695a0d93e044ff1a123a06be0f08664 for 25.0 units of EquityFutures(BANKNIFTY20220224FUT [22]) could not be filled by EOD, and was cancelled.
+Blueshift Alert[2022-01-04 15:29:00+05:30] WARNING :order b423589a47e043349ddeabcfcbea11d4 for 50.0 units of EquityFutures(BANKNIFTY20220224FUT [22]) could not be filled by EOD, and was cancelled.
+Blueshift Alert[None] INFO :backtest run complete, time taken 0:00:16.960000.
+Blueshift Alert[None] INFO :Simulated 6 sessions out of 6.
+Blueshift Alert[None] INFO :first open: 2022-01-03 00:00:00+05:30
+Blueshift Alert[None] INFO :last simulated: 2022-01-10 00:00:00+05:30
